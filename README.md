@@ -147,10 +147,15 @@ so the time is: 16:44 - 00.02 = 16min.42sec.
 ## &bull; PID tuning
 
 P - Proportional:
+
 This is the proportional part that deals with the present value of the error, which is the difference between the desired setpoint and the current value.
+
 I - Integral:
+
 This part of the controller deals with the accumulation of past errors. If the error has been present for a prolonged period, the integral part builds up over time and attempts to eliminate the steady-state error.
+
 D - Derivative:
+
 The derivative part predicts the future trend of the error based on its current rate of change. It helps in reducing the overshoot and settling time.
 
 
