@@ -109,7 +109,8 @@ Firstly, we make sure the distance between each dot in Mission Planner by right-
 
 Secondly, We make sure the distance between each dot by using the measure app in the iphone to test. It can be seen in the picture below:
 ![5ce66fc7143b4bf10b031dfe72af338](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/b091bb15-9d65-4663-9887-992e454c170b)
-<img width="625" alt="image" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/a24b4aa8-25e9-4565-87c5-ff6b9d8ada93">
+<img width="737" alt="image" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/82ccb409-1ef8-4a19-ba13-2219c377b121">
+
 
 
 
