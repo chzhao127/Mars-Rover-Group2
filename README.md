@@ -89,7 +89,7 @@ In the combined plot of IMU.AccZ, NKF1.PD (Positional Deviation), and NKF1.VD (V
 
 ## &bull; Path Design
 
-Here is the eight waypoints we set: 
+#### Here is the eight waypoints we set: 
 
 <img width="636" alt="3f225d9b7ea08bc627554e5d551a144" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/328cfab6-e4ab-4afe-b8df-675f9b08fcb3">
 
@@ -102,16 +102,12 @@ The distance from waypoint 6 to waypoint 7 is around 10 meters.
 The distance from waypoint 7 to waypoint 8 is around 30 meters.
 The distance from waypoint 8 to waypoint 1 is around 30 meters.
 
-Firstly, we make sure the distance between each dot in Mission Planner by right-click the dot and choose Map Tool, then choose Measure Distance to test the distance between two dots. It can be shown in the picture below:
+&#x25CF; Firstly, we make sure the distance between each dot in Mission Planner by right-click the dot and choose Map Tool, then choose Measure Distance to test the distance between two dots. It can be shown in the picture below:
 
 <img width="785" alt="image" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/4e740251-b919-47d9-8adf-8551ac562a13">
 
-
-Secondly, We make sure the distance between each dot by using the measure app in the iphone to test. It can be seen in the picture below:
+&#x25CF; Secondly, We make sure the distance between each dot by using the measure app in the iphone to test. It can be seen in the picture below:
 ![5ce66fc7143b4bf10b031dfe72af338](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/b091bb15-9d65-4663-9887-992e454c170b)
-<img width="737" alt="image" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/82ccb409-1ef8-4a19-ba13-2219c377b121">
-
-
 
 
 ## &bull; PID tuning
