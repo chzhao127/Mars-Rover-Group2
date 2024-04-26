@@ -19,3 +19,5 @@ The Mars Rover's electronic systems are built around a Raspberry Pi and Navio2 f
 The Mars Rover employs Ardupilot for navigation, configured via a ground control interface. Data from missions are analyzed to evaluate sensor accuracy and environmental responses, offering insights into Rover performance and sensor reliability.
 
 <img width="375" alt="image" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/498e0616-8534-4779-a58c-c421a20c5f51">
+
+## &bull; Sensors' measurement data and characterists evaluation
