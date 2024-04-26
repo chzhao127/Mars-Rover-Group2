@@ -114,6 +114,26 @@ We can see the distance between two dots like:
 &#x25CF; Secondly, We make sure the distance between each dot by using the measure app in the iphone to test. It can be seen in the picture below:
 ![5ce66fc7143b4bf10b031dfe72af338](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/b091bb15-9d65-4663-9887-992e454c170b)
 
+#### Then, we auto the Mars Rover to finish the designed path, we can see the picture below from UAV Log Viewer:
+
+<img width="479" alt="86ca7602686758e99fc7b059ffcc2c1" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/fae0cd81-8390-48ab-aa3d-c74b0ee4978b">
+
+#### And the time we cost to finish the designed path is around 16 min. 42 sec., we can see the time as shown below: 
+
+&#x25CF; ##### The begining:
+
+<img width="134" alt="bd2b9307b0a7d38fd4cc3976e25cddd" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/b977ba7f-28b8-47a2-8488-723c377808ed">
+
+##### The end:
+
+<img width="140" alt="7e1368f4329ccfbb3c97c54e48e76f9" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/e89866a2-b505-451f-815c-e5e96a15b9cf">
+
+so the time is: 16:44 - 00.02 = 16min.42sec.
+
+&#x25CF; #### We also record the time by using Stopwatch which is an app in the iphone:
+
+![7ff8520c956508e729668a314a048ff](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/01a39b0e-214b-4026-8357-4a4ed4662c7a)
+
 
 ## &bull; PID tuning
 1
