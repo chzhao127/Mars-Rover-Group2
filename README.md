@@ -21,3 +21,9 @@ The Mars Rover employs Ardupilot for navigation, configured via a ground control
 <img width="375" alt="image" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/498e0616-8534-4779-a58c-c421a20c5f51">
 
 ## &bull; Sensors' measurement data and characterists evaluation
+
+1. BARO.Press
+
+![126878e73747b07a9ab38bcfc4a311c](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/5a2b892f-b0b5-4d45-9a1a-533396106209)
+
+2. 
