@@ -57,12 +57,13 @@ We can see from the picture, the min is -2.41, the max altitude is 1.20, the mea
 
 ![236fcf26aedb74ea7f3b7c1822ffee7](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/4ffadd66-9532-47b8-abb9-4092af77e603)
 
-We can see from the picture, the minimum distance is 0.00, the maximum distance is 31.36, and the average distance is 11.61, which indicates that the waypoints are set at different distances, or the vehicle speeds are different between waypoints. The fluctuation of the data shows that the distance traveled by the Rover in each section is different. This also illustrates the accuracy of the sensor.
+We can see from the picture, the min distance is 0.00, the max distance is 31.36, and the average distance is 11.61, which indicates that the waypoints are set at different distances, or the vehicle speeds are different between waypoints. The fluctuation of the data shows that the distance traveled by the Rover in each section is different. This also illustrates the accuracy of the sensor.
 
 #### 8. RAD.RxErrors
    
 ![95efa6d16932ab077893076808a441b](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/30b5c6b4-3891-42a7-8bb9-1dc5e713f4aa)
 
+We can see from the picture, the min error rate is 0, the max error rate is 25.00, the mean error rate is 23.21.
 The RAD.RxErrors graph starts with a big jump in errors, up to 25, then quickly goes down to zero and stays there. This shows that the error has been maintained at a stable level after the car started running. The average error rate is 23.21, showing that most of the time, the system didn't have any problems. This illustrates the stability of the sensor.
 
 #### 9. IMU.Accz
@@ -144,17 +145,24 @@ so the time is: 16:44 - 00.02 = 16min.42sec.
 
 A proportional–integral–derivative controller (PID controller or three-term controller) is a control loop mechanism employing feedback that is widely used in industrial control systems and a variety of other applications requiring continuously modulated control. A PID controller continuously calculates an error value 𝑒(𝑡){displaystyle e(t)} as the difference between a desired setpoint (SP) and a measured process variable (PV) and applies a correction based on proportional, integral, and derivative terms (denoted P, I, and D respectively), hence the name.
 
-P - Proportional:
+## &bull; Steering Rate’s PID
 
-This is the proportional part that deals with the present value of the error, which is the difference between the desired setpoint and the current value.
 
-I - Integral:
+P: Pis the sensitivity of direct control of steering, adjust the value of P, the Mars Rover will turn fast, but too high may make the Mars Rover turn unstable, such as suddenly turn left or right. 
 
-This part of the controller deals with the accumulation of past errors. If the error has been present for a prolonged period, the integral part builds up over time and attempts to eliminate the steady-state error.
 
-D - Derivative:
+I: I is integral, which is when the rover doesn't turn the way it's supposed to, you can increase the value of I and let it slowly adjust.
 
-The derivative part predicts the future trend of the error based on its current rate of change. It helps in reducing the overshoot and settling time.
+
+D: The derivative part predicts the future trend of the error based on its current rate of change. It helps in reducing the overshoot and settling time.
+
+## &bull; Speed/Throttle's PID
+
+P: If the value of P is raised, the rover's acceleration will become stronger, but if it is too high, it may feel like the car is going fast at one moment, and then slow down at another. 
+
+I: I is if you find that the rover is not accelerating as fast as you want, you increase the I gain a little bit, and it will slowly increase to that speed.
+
+
 
 
 <img width="634" alt="e40943751fda19a56007daf4d5fd62d" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/4abf1b15-0646-459e-a9dc-502bbed68682">
