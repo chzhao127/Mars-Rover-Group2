@@ -26,4 +26,19 @@ The Mars Rover employs Ardupilot for navigation, configured via a ground control
 
 ![126878e73747b07a9ab38bcfc4a311c](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/5a2b892f-b0b5-4d45-9a1a-533396106209)
 
-2. 
+We can see from the picture, the min pressure is 100370.55 Pa, the max pressure is 100489.95 Pa, the mean value is 100410.07 Pa, and standard atmospheric pressure is about 101,325 pascals, which means the pressure measured is very close to the standard atmosphere at the Earth's surface.
+
+2. BARO.Temp
+
+![6e6afa664c6193fe7c514631c07179a](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/f431a6e3-72b1-4da4-8670-29f3e9caca81)
+
+3. BARO.Alt
+
+![2c428c6cda200fe7612bba80659496e](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/0c927346-5e9d-479e-bcc4-432b2a600ad3)
+
+4. IMU.T
+
+![33b50c8835c5c6189f5ccfe79e8c34f](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/d778dc0e-c5ed-409e-ba2b-d020f73345af)
+
+5. 
+
