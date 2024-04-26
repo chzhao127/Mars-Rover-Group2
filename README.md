@@ -52,6 +52,10 @@ We can see from the picture, the min temperature is 36.35â„ƒ, the max is 42.63â„
 
 We can see from the picture, the min altitude is 163.57m, the max altitude is 186.59m, the mean altitude is 171.84m. The data within this range of altitude variation indicates that GPS has good accuracy and consistency in monitoring specific altitude. Considering that GPS systems are commonly used for positioning and navigation, this small elevation variation indicates that the system can provide stable and reliable altitude information under static conditions.
 
+![13b75c163732f434abb139460aebc5a](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/3bb73e79-a1c2-4340-8c5d-7e6a7178f7b2)
+
+And then I compared the values with the altitude we record when we make the test, I find the record value 168.66m is very close to GPS.Alt and in the interval.
+
 #### 6. NTUN.XTrack
 
 ![7dae076c00f70afaabdc1df5c9f370f](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/f2865542-50ef-4c99-9a64-8c18b75d4161)
