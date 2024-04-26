@@ -51,7 +51,7 @@ And then I compared the values with the altitude we record when we make the test
 
 ![7dae076c00f70afaabdc1df5c9f370f](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/f2865542-50ef-4c99-9a64-8c18b75d4161)
 
-We can see from the picture, the min is -2.41, the max altitude is 1.20, the mean altitude is -0.41. These data indicate that the navigation system shows a certain deviation in maintaining a predetermined path. The difference between the minimum and maximum values shows a range of fluctuations in the degree of offset, while the mean deviation is close to zero but slightly negative, indicating that the system tends to shift slightly to the left of the path during the test. I think this offset may be due to inaccurate system calibration, environmental factors, or sensor errors. This illustrates the accuracy of the sensor.
+We can see from the picture, the min is -2.41, the max altitude is 1.20, the mean altitude is -0.41. These data indicate that our Mars Rover's navigation system shows a certain deviation in maintaining a predetermined path. The difference between the minimum and maximum values shows a range of fluctuations in the degree of offset, while the mean deviation is -0.41, indicating that the system tends to shift slightly to the left of the path during the test. I think this offset may be due to inaccurate system calibration, or environmental factors. This illustrates the accuracy of the sensor.
 
 #### 7. NTUN.WpDist
 
