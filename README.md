@@ -146,7 +146,7 @@ so the time is: 16:44 - 00.02 = 16min.42sec.
 
 ## &bull; PID tuning
 
-![image](< img width="634" alt="e71314e195a3797860e3a4ce065dac0" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161894946/463578eb-252f-4fee-9049-ca86538bddc0">)
+<img width="634" alt="e40943751fda19a56007daf4d5fd62d" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/4abf1b15-0646-459e-a9dc-502bbed68682">
 
 This is our final PID value. By proper PID tuning, the errors between the actual path and designed path as well as the waypoints were minimized. And by modifying the values of P, I and D for many times, and running on the site for many times, we gradually reduced the error value. 
 
