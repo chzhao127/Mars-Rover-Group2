@@ -57,26 +57,31 @@ We can see from the picture, the min is -2.41, the max altitude is 1.20, the mea
 
 ![236fcf26aedb74ea7f3b7c1822ffee7](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/4ffadd66-9532-47b8-abb9-4092af77e603)
 
-We can see from the picture, the minimum distance is 0.00, the maximum distance is 31.36, and the average distance is 11.61, which indicates that the waypoints are set at different distances, or the vehicle speeds are different between waypoints
-This zigzag pattern is characteristic of autonomous or semi-autonomous navigation, in which a vehicle moves toward a waypoint, reaches that waypoint, and then continues on to the next waypoint. A sharp increase indicates a momentary reset, possibly the moment when the next waypoint becomes the target. The average distance shows that, on average, waypoints are moderately spaced.
+We can see from the picture, the minimum distance is 0.00, the maximum distance is 31.36, and the average distance is 11.61, which indicates that the waypoints are set at different distances, or the vehicle speeds are different between waypoints. The fluctuation of the data shows that the distance traveled by the Rover in each section is different.
 
 #### 8. RAD.RxErrors
    
 ![95efa6d16932ab077893076808a441b](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/30b5c6b4-3891-42a7-8bb9-1dc5e713f4aa)
 
-The data from the RAD.RxErrors graph initially shows a substantial spike in receiver errors, reaching a peak of 25, before dropping to a consistent zero, which indicates an abrupt resolution to reception issues. The mean error rate of 23.21 suggests that the majority of the time captured by the plot was error-free, implying an overall reliable communication after the initial spike.
+The RAD.RxErrors graph starts with a big jump in errors, up to 25, then quickly goes down to zero and stays there. This shows that the error has been maintained at a stable level after the car started running. The average error rate is 23.21, showing that most of the time, the system didn't have any problems.
 
 #### 9. IMU.Accz
 
 ![d57094fb7e2a289bfdd55af177bcc5b](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/202215b0-4d91-4375-b849-67eb99821e84)
 
-The IMU.AccZ graph demonstrates noticeable volatility in the acceleration along the Z-axis, with a mean value of -9.71. The persistent negative acceleration indicates a dominant downward force, likely due to gravity, and the spikes suggest that the vehicle or device is subject to intermittent forces or jolts, which could be indicative of rough terrain or impacts.
+The IMU.AccZ graph demonstrates noticeable volatility in the acceleration along the Z-axis, with a mean value of -9.71. The persistent negative acceleration indicates a dominant downward force, likely due to gravity. The peak value indicates that the rover has stopped and is changing direction.
 
 #### 10. IMU.Accz, NKF1.PD, NKF1.VD
 
 ![b5f2ebab0a936e8541c620960f2c9cc](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/aadfe19a-dadc-4c0c-93e9-227f2c28ca9a)
 
-In the combined plot of IMU.AccZ, NKF1.PD (Positional Deviation), and NKF1.VD (Velocity Deviation), we see a correlation between the acceleration data and these navigational metrics. NKF1.PD exhibits significant variation, with a mean indicating a tendency toward a negative positional deviation, whereas NKF1.VD is relatively stable, fluctuating slightly around a near-zero mean. This could signify that while there is some positional drift, the velocity remains fairly consistent, which might be expected in a system that compensates for positional errors to maintain a steady course.
+This graph shows three different lines: IMU.AccZ, NKF1.PD, and NKF1.VD. Each line represents different types of data over time.
+
+The IMU.AccZ line, in blue, goes up and down a lot, which means there's a lot of change in acceleration along the Z-axis. It has some really big spikes, too, which could mean quick movements or bumps.
+
+The NKF1.PD line, in orange, also goes up and down, but not as much as the IMU.AccZ line. It shows how much the position is changing from where it's supposed to be. The changes are pretty big sometimes, This means that the running error is larger.
+
+The NKF1.VD line, in green, is smoother than the others and stays closer to the middle. It measures changes in velocity, which means how the speed is changing. Since it doesn't move too far from the middle, it suggests the speed doesn't change too wildly.
 
 ## &bull; Path Design
 
