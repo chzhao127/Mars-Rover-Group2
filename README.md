@@ -106,6 +106,11 @@ The distance from waypoint 8 to waypoint 1 is around 30 meters.
 
 <img width="785" alt="image" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/4e740251-b919-47d9-8adf-8551ac562a13">
 
+We can see the distance between two dots like:
+
+![a6a56782dc34da5057a9c31c6395259](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/2307112a-f068-4d4a-8164-ea558ca216c6)
+
+
 &#x25CF; Secondly, We make sure the distance between each dot by using the measure app in the iphone to test. It can be seen in the picture below:
 ![5ce66fc7143b4bf10b031dfe72af338](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/b091bb15-9d65-4663-9887-992e454c170b)
 
