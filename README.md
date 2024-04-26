@@ -89,8 +89,17 @@ In the combined plot of IMU.AccZ, NKF1.PD (Positional Deviation), and NKF1.VD (V
 
 ## &bull; Path Design
 
-Here is the eight waypoints we set: ![6f2e8c139c4461d3cb37e0851b4453d](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/13069a94-bccc-42e1-813e-015f6c6094ac)
+Here is the eight waypoints we set: <img width="636" alt="3f225d9b7ea08bc627554e5d551a144" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/328cfab6-e4ab-4afe-b8df-675f9b08fcb3">
 
+The distance from waypoint 1 to waypoint 2 is around 30 meters.
+The distance from waypoint 2 to waypoint 3 is around 10 meters.
+The distance from waypoint 3 to waypoint 4 is around 20 meters.
+The distance from waypoint 4 to waypoint 5 is around 10 meters.
+The distance from waypoint 5 to waypoint 6 is around 20 meters.
+The distance from waypoint 6 to waypoint 7 is around 10 meters.
+The distance from waypoint 7 to waypoint 8 is around 30 meters.
+The distance from waypoint 8 to waypoint 1 is around 30 meters.
 
-The distance between each neighborhood dot is around 10 meters.
+We make sure the distance between each dot by using the measure app in the iphone to test. It can be seen in the picture below:
 
+## &bull; PID tuning
