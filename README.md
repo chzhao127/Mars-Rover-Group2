@@ -88,3 +88,9 @@ The IMU.AccZ graph demonstrates noticeable volatility in the acceleration along 
 In the combined plot of IMU.AccZ, NKF1.PD (Positional Deviation), and NKF1.VD (Velocity Deviation), we see a correlation between the acceleration data and these navigational metrics. NKF1.PD exhibits significant variation, with a mean indicating a tendency toward a negative positional deviation, whereas NKF1.VD is relatively stable, fluctuating slightly around a near-zero mean. This could signify that while there is some positional drift, the velocity remains fairly consistent, which might be expected in a system that compensates for positional errors to maintain a steady course.
 
 ## &bull; Path Design
+
+Here is the eight waypoints we set: ![6f2e8c139c4461d3cb37e0851b4453d](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/13069a94-bccc-42e1-813e-015f6c6094ac)
+
+
+The distance between each neighborhood dot is around 10 meters.
+
