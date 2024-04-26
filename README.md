@@ -146,6 +146,14 @@ so the time is: 16:44 - 00.02 = 16min.42sec.
 
 ## &bull; PID tuning
 
+P - Proportional:
+This is the proportional part that deals with the present value of the error, which is the difference between the desired setpoint and the current value.
+I - Integral:
+This part of the controller deals with the accumulation of past errors. If the error has been present for a prolonged period, the integral part builds up over time and attempts to eliminate the steady-state error.
+D - Derivative:
+The derivative part predicts the future trend of the error based on its current rate of change. It helps in reducing the overshoot and settling time.
+
+
 <img width="634" alt="e40943751fda19a56007daf4d5fd62d" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/4abf1b15-0646-459e-a9dc-502bbed68682">
 
 This is our final PID value. By proper PID tuning, the errors between the actual path and designed path as well as the waypoints were minimized. And by modifying the values of P, I and D for many times, and running on the site for many times, we gradually reduced the error value. 
