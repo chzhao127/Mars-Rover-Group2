@@ -103,3 +103,6 @@ The distance from waypoint 8 to waypoint 1 is around 30 meters.
 We make sure the distance between each dot by using the measure app in the iphone to test. It can be seen in the picture below:
 
 ## &bull; PID tuning
+1
+2
+3
