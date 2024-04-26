@@ -32,6 +32,8 @@ We can see from the picture, the min pressure is 100370.55 Pa, the max pressure 
 
 ![6e6afa664c6193fe7c514631c07179a](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/f431a6e3-72b1-4da4-8670-29f3e9caca81)
 
+We can see from the picture, the min temperature is 35.54, the max temperature is 41.64, and the mean temperature is 39.81, 
+
 3. BARO.Alt
 
 ![2c428c6cda200fe7612bba80659496e](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/0c927346-5e9d-479e-bcc4-432b2a600ad3)
