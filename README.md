@@ -94,13 +94,21 @@ In the combined plot of IMU.AccZ, NKF1.PD (Positional Deviation), and NKF1.VD (V
 <img width="636" alt="3f225d9b7ea08bc627554e5d551a144" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/328cfab6-e4ab-4afe-b8df-675f9b08fcb3">
 
 The distance from waypoint 1 to waypoint 2 is around 30 meters.
+
 The distance from waypoint 2 to waypoint 3 is around 10 meters.
+
 The distance from waypoint 3 to waypoint 4 is around 20 meters.
+
 The distance from waypoint 4 to waypoint 5 is around 10 meters.
+
 The distance from waypoint 5 to waypoint 6 is around 20 meters.
+
 The distance from waypoint 6 to waypoint 7 is around 10 meters.
+
 The distance from waypoint 7 to waypoint 8 is around 30 meters.
+
 The distance from waypoint 8 to waypoint 1 is around 30 meters.
+
 
 &#x25CF; Firstly, we make sure the distance between each dot in Mission Planner by right-click the dot and choose Map Tool, then choose Measure Distance to test the distance between two dots. It can be shown in the picture below:
 
@@ -120,7 +128,7 @@ We can see the distance between two dots like:
 
 #### And the time we cost to finish the designed path is around 16 min. 42 sec., we can see the time as shown below: 
 
-&#x25CF; ##### The begining:
+&#x25CF; The begining:
 
 <img width="134" alt="bd2b9307b0a7d38fd4cc3976e25cddd" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/b977ba7f-28b8-47a2-8488-723c377808ed">
 
@@ -128,14 +136,19 @@ We can see the distance between two dots like:
 
 <img width="140" alt="7e1368f4329ccfbb3c97c54e48e76f9" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/e89866a2-b505-451f-815c-e5e96a15b9cf">
 
+
 so the time is: 16:44 - 00.02 = 16min.42sec.
 
-&#x25CF; #### We also record the time by using Stopwatch which is an app in the iphone:
+&#x25CF; We also record the time by using Stopwatch which is an app in the iphone:
 
-![7ff8520c956508e729668a314a048ff](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/01a39b0e-214b-4026-8357-4a4ed4662c7a)
+<img width="194" alt="image" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/0354ab2d-3ad2-4c6e-9d03-eb4dec43a840">
 
 
 ## &bull; PID tuning
-1
-2
-3
+
+![image](< img width="634" alt="e71314e195a3797860e3a4ce065dac0" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161894946/463578eb-252f-4fee-9049-ca86538bddc0">)
+
+This is our final PID value. By proper PID tuning, the errors between the actual path and designed path as well as the waypoints were minimized. And by modifying the values of P, I and D for many times, and running on the site for many times, we gradually reduced the error value. 
+
+
+
