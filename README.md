@@ -51,25 +51,25 @@ And then I compared the values with the altitude we record when we make the test
 
 ![7dae076c00f70afaabdc1df5c9f370f](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/f2865542-50ef-4c99-9a64-8c18b75d4161)
 
-We can see from the picture, the min is -2.41, the max altitude is 1.20, the mean altitude is -0.41. These data indicate that the navigation system shows a certain deviation in maintaining a predetermined path. The difference between the minimum and maximum values shows a range of fluctuations in the degree of offset, while the mean deviation is close to zero but slightly negative, indicating that the system tends to shift slightly to the left of the path during the test. I think this offset may be due to inaccurate system calibration, environmental factors, or sensor errors.
+We can see from the picture, the min is -2.41, the max altitude is 1.20, the mean altitude is -0.41. These data indicate that the navigation system shows a certain deviation in maintaining a predetermined path. The difference between the minimum and maximum values shows a range of fluctuations in the degree of offset, while the mean deviation is close to zero but slightly negative, indicating that the system tends to shift slightly to the left of the path during the test. I think this offset may be due to inaccurate system calibration, environmental factors, or sensor errors. This illustrates the accuracy of the sensor.
 
 #### 7. NTUN.WpDist
 
 ![236fcf26aedb74ea7f3b7c1822ffee7](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/4ffadd66-9532-47b8-abb9-4092af77e603)
 
-We can see from the picture, the minimum distance is 0.00, the maximum distance is 31.36, and the average distance is 11.61, which indicates that the waypoints are set at different distances, or the vehicle speeds are different between waypoints. The fluctuation of the data shows that the distance traveled by the Rover in each section is different.
+We can see from the picture, the minimum distance is 0.00, the maximum distance is 31.36, and the average distance is 11.61, which indicates that the waypoints are set at different distances, or the vehicle speeds are different between waypoints. The fluctuation of the data shows that the distance traveled by the Rover in each section is different. This also illustrates the accuracy of the sensor.
 
 #### 8. RAD.RxErrors
    
 ![95efa6d16932ab077893076808a441b](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/30b5c6b4-3891-42a7-8bb9-1dc5e713f4aa)
 
-The RAD.RxErrors graph starts with a big jump in errors, up to 25, then quickly goes down to zero and stays there. This shows that the error has been maintained at a stable level after the car started running. The average error rate is 23.21, showing that most of the time, the system didn't have any problems.
+The RAD.RxErrors graph starts with a big jump in errors, up to 25, then quickly goes down to zero and stays there. This shows that the error has been maintained at a stable level after the car started running. The average error rate is 23.21, showing that most of the time, the system didn't have any problems. This illustrates the stability of the sensor.
 
 #### 9. IMU.Accz
 
 ![d57094fb7e2a289bfdd55af177bcc5b](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/202215b0-4d91-4375-b849-67eb99821e84)
 
-The IMU.AccZ graph demonstrates noticeable volatility in the acceleration along the Z-axis, with a mean value of -9.71. The persistent negative acceleration indicates a dominant downward force, likely due to gravity. The peak value indicates that the rover has stopped and is changing direction.
+The IMU.AccZ graph demonstrates noticeable volatility in the acceleration along the Z-axis, with a mean value of -9.71. The persistent negative acceleration indicates a dominant downward force, likely due to gravity. The peak value indicates that the rover has stopped and is changing direction. This illustrates the precision of the sensor.
 
 #### 10. IMU.Accz, NKF1.PD, NKF1.VD
 
