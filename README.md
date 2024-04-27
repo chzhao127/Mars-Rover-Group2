@@ -144,7 +144,7 @@ so the time is: 16:44 - 00.02 = 16min.42sec.
 
 A proportional–integral–derivative controller (PID controller or three-term controller) is a control loop mechanism employing feedback that is widely used in industrial control systems and a variety of other applications requiring continuously modulated control. A PID controller continuously calculates an error value 𝑒(𝑡){displaystyle e(t)} as the difference between a desired setpoint (SP) and a measured process variable (PV) and applies a correction based on proportional, integral, and derivative terms (denoted P, I, and D respectively), hence the name.
 
-## &bull; Steering Rate’s PID
+### &bull; Steering Rate’s PID
 
 P: P is the sensitivity of direct control of steering, adjust the value of P, the Mars Rover will turn fast, but too high may make the Mars Rover turn unstable, such as suddenly turn left or right. 
 
@@ -154,7 +154,7 @@ I: I is integral, which is when the rover doesn't turn the way it's supposed to,
 
 D: D is used to suppress changes in the steering speed of the car. If the value of D is not set correctly, Mars Rover may feel not good when turning, as if it had turned too sharply and then stopped suddenly.
 
-## &bull; Speed/Throttle's PID
+### &bull; Speed/Throttle's PID
 
 P: If the value of P is raised, the rover's acceleration will become stronger, but if it is too high, it may feel like the car is going fast at one moment, and then slow down at another. 
 
@@ -168,4 +168,8 @@ D: D is used to suppress changes in speed, and adjusting the D gain can also hel
 This is our final PID value. By proper PID tuning, the errors between the actual path and designed path as well as the waypoints were minimized. And by modifying the values of P, I and D for many times, and running on the site for many times, we gradually reduced the error value. 
 
 
+
+## &bull; Conclusion
+
+In conclusion, it took our team about 16 minutes and 40 seconds for our Mars Rover to complete the route we planned, and by constantly adjusting the values of P,I and D, the error was reduced. At the same time, we also measured the temperature, air pressure and altitude at that time for comparison, so as to make our experiment more perfect.
 
