@@ -31,11 +31,16 @@ We can see from the picture, the min temperature is 35.54℃, the max temperatur
 
 We can see from the picture, the min altitude is -2.77m, the max altitude is 7.95m, the mean altitude is 4.40m. Since we measured in the parking lot, the elevation fluctuation may reflect small fluctuations in the parking lot terrain or due to the location of the sensors. Negative altitude readings can result from inaccurate initial sensor calibration or from low-lying terrain relative to the starting point. These data indicate that the sensor is capable of detecting relatively small changes in height. The stability of the mean altitude shows the reliability of the sensor in a static environment.
 
+And we also record the temperature when we make the test, it can be show below:
+
+![87d119fffc3b1a53a5999f4bed78413](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/1f409c61-cc33-4692-b682-02efa77154af)
+
+
 #### 4. IMU.T
 
 ![33b50c8835c5c6189f5ccfe79e8c34f](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/d778dc0e-c5ed-409e-ba2b-d020f73345af)
 
-We can see from the picture, the min temperature is 36.35℃, the max is 42.63℃, and the mean value is 40.86℃. This indicates that the internal temperature of the IMU changes relatively little during the period of data recording, showing good thermal stability. This temperature range may also indicate its own heating and heat dissipation efficiency, which is an important performance indicator for equipment deployed in a closed environment for a long time. The thermal performance of the sensor is shown to be suitable for use in stable and predictable environments, which is critical to ensure measurement consistency and equipment reliability during long-term operation
+We can see from the picture, the min temperature is 36.35℃, the max is 42.63℃, and the mean value is 40.86℃. This indicates that the internal temperature of the IMU changes relatively little during the period of data recording, showing good thermal stability. This temperature range may also indicate its own heating and heat dissipation efficiency, which is an important performance indicator for equipment deployed in a closed environment for a long time. The thermal performance of the sensor is shown to be suitable for use in stable and predictable environments, which is critical to ensure measurement consistency and equipment reliability during long-term operation.
 
 #### 5. GPS.Alt
 
