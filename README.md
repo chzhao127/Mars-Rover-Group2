@@ -33,7 +33,7 @@ We can see from the picture, the min altitude is -2.77m, the max altitude is 7.9
 
 And we also record the temperature when we make the test, it can be show below:
 
-![87d119fffc3b1a53a5999f4bed78413](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/1f409c61-cc33-4692-b682-02efa77154af)
+![image](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/1d2e6cb4-3faf-48d3-b66b-d427eecc9fc7)
 
 
 #### 4. IMU.T
