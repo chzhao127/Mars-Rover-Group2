@@ -122,9 +122,9 @@ We can see the distance between two dots like:
 
 <img width="479" alt="86ca7602686758e99fc7b059ffcc2c1" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/fae0cd81-8390-48ab-aa3d-c74b0ee4978b">
 
-#### And the time we cost to finish the designed path is around 16 min. 42 sec., we can see the time as shown below: 
+&#x25CF; And the time we cost to finish the designed path is around 16 min. 42 sec., we can see the time as shown below: 
 
-&#x25CF; The begining:
+##### The begining:
 
 <img width="134" alt="bd2b9307b0a7d38fd4cc3976e25cddd" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/b977ba7f-28b8-47a2-8488-723c377808ed">
 
