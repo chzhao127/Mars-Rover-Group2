@@ -51,7 +51,7 @@ And then I compared the values with the altitude we record when we make the test
 
 ![7dae076c00f70afaabdc1df5c9f370f](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/f2865542-50ef-4c99-9a64-8c18b75d4161)
 
-We can see from the picture, the min is -2.41, the max altitude is 1.20, the mean altitude is -0.41. These data indicate that our Mars Rover's navigation system shows a certain deviation in maintaining a predetermined path. The difference between the minimum and maximum values shows a range of fluctuations in the degree of offset, while the mean deviation is -0.41, indicating that the system tends to shift slightly to the left of the path during the test. I think this offset may be due to inaccurate system calibration, or environmental factors. This illustrates the accuracy of the sensor.
+We can see from the picture, the min is -2.41, the max altitude is 1.20, the mean altitude is -0.41. These data indicate that our Mars Rover's navigation system shows a certain deviation in maintaining a predetermined path. The difference between the minimum and maximum values shows a range of fluctuations in the degree of offset, while the mean deviation is -0.41, indicating that the system tends to shift slightly to the left of the path during the test. I think this offset may be due to inaccurate system calibration, or environmental factors.
 
 #### 7. NTUN.WpDist
 
@@ -63,20 +63,19 @@ We can see from the picture, the min distance is 0.00, the max distance is 31.36
    
 ![95efa6d16932ab077893076808a441b](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/30b5c6b4-3891-42a7-8bb9-1dc5e713f4aa)
 
-We can see from the picture, the min error rate is 0, the max error rate is 25.00, the mean error rate is 23.21.
-The RAD.RxErrors graph starts with a big jump in errors, up to 25, then quickly goes down to zero and stays there. This shows that the error has been maintained at a stable level after the car started running. The average error rate is 23.21, showing that most of the time, the system didn't have any problems. This illustrates the stability of the sensor.
+We can see from the picture, the min error rate is 0, the max error rate is 25.00, the mean error rate is 23.21. This shows that the error has been maintained at a stable level after our Mars Rover started running. The average error rate is 23.21, showing that most of the time, the system didn't have any problems. This illustrates the stability of the sensor.
 
 #### 9. IMU.Accz
 
 ![d57094fb7e2a289bfdd55af177bcc5b](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/202215b0-4d91-4375-b849-67eb99821e84)
 
-The IMU.AccZ graph demonstrates noticeable volatility in the acceleration along the Z-axis, with a mean value of -9.71. The persistent negative acceleration indicates a dominant downward force, likely due to gravity. The peak value indicates that the rover has stopped and is changing direction. This illustrates the precision of the sensor.
+This picture shows noticeable volatility in the acceleration along the Z-axis, with a mean value of -9.71. The persistent negative acceleration indicates a dominant downward force, likely due to gravity. The peak value indicates that the rover has stopped and is changing direction. This illustrates the precision of the sensor.
 
 #### 10. IMU.Accz, NKF1.PD, NKF1.VD
 
 ![b5f2ebab0a936e8541c620960f2c9cc](https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/aadfe19a-dadc-4c0c-93e9-227f2c28ca9a)
 
-This graph shows three different lines: IMU.AccZ, NKF1.PD, and NKF1.VD. Each line represents different types of data over time.
+This picture shows three different lines: IMU.AccZ, NKF1.PD, and NKF1.VD. 
 
 The IMU.AccZ line, in blue, goes up and down a lot, which means there's a lot of change in acceleration along the Z-axis. It has some really big spikes, too, which could mean quick movements or bumps.
 
@@ -147,14 +146,13 @@ A proportional–integral–derivative controller (PID controller or three-term 
 
 ## &bull; Steering Rate’s PID
 
-
-P: Pis the sensitivity of direct control of steering, adjust the value of P, the Mars Rover will turn fast, but too high may make the Mars Rover turn unstable, such as suddenly turn left or right. 
+P: P is the sensitivity of direct control of steering, adjust the value of P, the Mars Rover will turn fast, but too high may make the Mars Rover turn unstable, such as suddenly turn left or right. 
 
 
 I: I is integral, which is when the rover doesn't turn the way it's supposed to, you can increase the value of I and let it slowly adjust.
 
 
-D: The derivative part predicts the future trend of the error based on its current rate of change. It helps in reducing the overshoot and settling time.
+D: D is used to suppress changes in the steering speed of the car. If the value of D is not set correctly, Mars Rover may feel not good when turning, as if it had turned too sharply and then stopped suddenly.
 
 ## &bull; Speed/Throttle's PID
 
@@ -162,7 +160,7 @@ P: If the value of P is raised, the rover's acceleration will become stronger, b
 
 I: I is if you find that the rover is not accelerating as fast as you want, you increase the I gain a little bit, and it will slowly increase to that speed.
 
-
+D: D is used to suppress changes in speed, and adjusting the D gain can also help stabilize the Mars Rover if it is too sensitive to accelerate or decelerate.
 
 
 <img width="634" alt="e40943751fda19a56007daf4d5fd62d" src="https://github.com/chzhao127/Mars-Rover-Group2/assets/161892823/4abf1b15-0646-459e-a9dc-502bbed68682">
